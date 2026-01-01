@@ -19,7 +19,7 @@ export function renderHtml(content: string) {
         <main>
           <p>Database contains the user connected subscription data:</p>
           <pre><code><span style="color: #0E838F">&gt; </span>SELECT * FROM comments LIMIT 3;<br>${content}</code></pre>
-          <small class="red">
+          <small class="blue">
             <a target="_blank" href="https://developers.cloudflare.com/d1/tutorials/build-a-comments-api/">Build a comments API with Workers and D1</a>
           </small>
         </main>
