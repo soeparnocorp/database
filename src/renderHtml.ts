@@ -5,7 +5,7 @@ export function renderHtml(content: string) {
       <head>
         <meta charset="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <title>READTalk - Database</title>
+        <title>READTalk - Database Server</title>
         <link rel="stylesheet" type="text/css" href="https://static.integrations.cloudflare.com/styles.css">
       </head>
     
@@ -14,7 +14,7 @@ export function renderHtml(content: string) {
           <img
             src="https://imagedelivery.net/wSMYJvS3Xw-n339CbDyDIA/30e0d3f6-6076-40f8-7abb-8a7676f83c00/public"
           />
-          <h1>READTalk Server</h1>
+          <h1>READTalk Database Server</h1>
         </header>
         <main>
           <p>Database contains the user connected subscription data:</p>
